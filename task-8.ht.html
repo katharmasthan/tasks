@@ -1,0 +1,47 @@
+<!-- 1. Headings with Inline, Internal, External CSS -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Tasks</title>
+
+    <!-- Internal CSS -->
+    <style>
+        .internal-heading {
+            color: green;
+            font-size: 30px;
+        }
+
+        .para {
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color:red; font-size:28px;">This is Inline CSS Heading</h1>
+
+    <!-- Internal CSS -->
+    <h2 class="internal-heading">This is Internal CSS Heading</h2>
+
+    <!-- External CSS -->
+    <h3 class="external-heading">This is External CSS Heading</h3>
+
+    <p class="para">This paragraph uses internal CSS color and font size.</p>
+    <p style="color:purple; font-size:22px;">This paragraph uses inline CSS.</p>
+
+    <!-- 3. About Page Using All 3 CSS Types -->
+    <h2 style="color:orange;">About Me (Inline CSS)</h2>
+    <p class="para">I am learning HTML and CSS. This paragraph uses internal CSS.</p>
+    <p class="external-about">This paragraph will use external CSS.</p>
+
+    <!-- 4. Page Using External CSS Only -->
+    <h2 class="only-external">External CSS Only Heading</h2>
+    <p class="only-external-para">This entire section uses only external CSS.</p>
+
+</body>
+</html>
