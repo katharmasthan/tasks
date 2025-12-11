@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* 1. Five classes */
+.box1 { color: red; font-size: 20px; }
+.box2 { background: lightblue; padding: 10px; }
+.box3 { border: 2px solid green; }
+.box4 { text-align: center; font-weight: bold; }
+.box5 { background: yellow; color: black; }
+
+/* 2. Attribute selectors for form */
+input[type="text"] { border: 2px solid blue; }
+input[type="email"] { border: 2px solid red; }
+input[type="password"] { border: 2px solid green; }
+button[type="submit"] { background: black; color: white; }
+
+/* 3. IDs styling */
+#title { color: purple; font-size: 30px; }
+#note { background: pink; }
+#footer { text-align: center; color: gray; }
+
+/* 4. Group selector */
+h1, h2, p { font-family: Arial; }
+</style>
+</head>
+<body>
+
+<h1 id="title">Styled Using ID</h1>
+<h2 class="box4">Group Selector Applied</h2>
+<p class="box1">This is class box1.</p>
+<p class="box2">This is class box2.</p>
+<p class="box3">This is class box3.</p>
+<p class="box4">This is class box4.</p>
+<p class="box5">This is class box5.</p>
+
+<form>
+  <input type="text" placeholder="Enter name"><br><br>
+  <input type="email" placeholder="Enter email"><br><br>
+  <input type="password" placeholder="Enter password"><br><br>
+  <button type="submit">Submit</button>
+</form>
+
+<p id="note">Styled using ID note.</p>
+<p id="footer">Styled using ID footer.</p>
+
+</body>
+</html>
