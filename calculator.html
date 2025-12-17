@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    .but{
+        grid-template-columns:repeat(4,50px);
+        display:grid;
+        gap :10px;
+    }
+    .num{
+         background-color: #e5e7eb;
+         color :black;
+    }
+    button{
+        border: none;
+        border-radius:10px ;
+        height:50px;
+        background-color: #dbeafe;
+    }
+    .op{
+        grid-template-columns:repeat(4,50px);
+        display:grid;
+        gap :10px;
+        margin-bottom: 10px;
+        
+        
+    }
+</style>
+<body style="height: 100vh;display: flex; justify-content: center; align-items: center; background-color: #2563eb; ">
+
+<div style="background:white;padding:20px; border-radius:15px;">
+
+    <div style="display: flex;flex-direction: column;">
+
+    <input type="text" style="width:210px; padding:8px; margin-bottom:10px;border-radius:10px ;">
+
+    <div class="op">
+
+        <button style="background-color: yellow;">+</button>
+        <button style="background-color: yellow;">-</button>
+        <button style="background-color: yellow;">×</button>
+        <button style="background-color: yellow;">÷</button>
+
+    </div>
+
+    <div class="but">
+
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>0</button>
+        <button>.</button>
+
+        <button style="background-color: red; color: white;">c</button>
+
+        <button style="background-color: green; padding:10px,24px; font-size: 20px;grid-column: span 2;">=</button>
+
+         </div>
+
+         </div>
+
+         </div>
+
+</body>
+</html>
