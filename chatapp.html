@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat App</title>
+
+<style>
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: linear-gradient(135deg,#0ea5e9,#2563eb);
+        font-family: Arial, sans-serif;
+    }
+
+    .app{
+        width:320px;
+        background:#f9fafb;
+        border-radius:20px;
+        overflow:hidden;
+        box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .header{
+        background:#0d6efd;
+        color:white;
+        text-align:center;
+        padding:15px;
+        font-size:24px;
+        font-weight:bold;
+    }
+
+    .chat{
+        padding:15px;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .left{
+        align-self:flex-start;
+        background:#e5e7eb;
+        padding:8px 12px;
+        border-radius:12px;
+        font-size:14px;
+        max-width:75%;
+    }
+
+    .right{
+        align-self:flex-end;
+        background:#0d6efd;
+        color:white;
+        padding:8px 12px;
+        border-radius:12px;
+        font-size:14px;
+        max-width:75%;
+    }
+
+    .input-area{
+        display:flex;
+        gap:8px;
+        padding:12px;
+        border-top:1px solid #e5e7eb;
+        background:white;
+    }
+
+    .input-area input{
+        flex:1;
+        padding:10px;
+        border-radius:20px;
+        border:1px solid #d1d5db;
+        outline:none;
+    }
+
+    .input-area button{
+        padding:10px 16px;
+        border:none;
+        border-radius:20px;
+        background:#0d6efd;
+        color:white;
+        font-size:14px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="app">
+    <div class="header">CHAT APP</div>
+
+    <div class="chat">
+        <div class="right">You are my Bae ❤️ : Abby</div>
+        <div class="left">JK: ooooo 🙈</div>
+        <div class="right">😊😊 : Abby</div>
+        <div class="left">JK: you are my Bee</div>
+        <div class="right">😂😂 : Abby</div>
+        <div class="left">JK: You got it right?</div>
+        <div class="right">yeah 😘 : Abby</div>
+        <div class="left">JK: 😍😍</div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" placeholder="Type a message...">
+        <button>Send</button>
+    </div>
+</div>
+
+</body>
+</html>
